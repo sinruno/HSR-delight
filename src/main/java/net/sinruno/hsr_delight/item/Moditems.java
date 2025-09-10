@@ -14,8 +14,8 @@ public class Moditems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, HSR_delight.MODID);
 
-    public static final RegistryObject<Item> OAK_CAKE_ROLLS=ITEMS.register("Oak Cake Rolls",
-            () -> new Item(new Item.Properties()))
+    public static final RegistryObject<Item> OAK_CAKE_ROLLS=ITEMS.register("oak_cake_rolls",
+            () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

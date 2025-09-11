@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
-  "text": {
+  "textures": {
     "layer0": "hsr_delight:item/oak_cake_rolls"
   }
 }

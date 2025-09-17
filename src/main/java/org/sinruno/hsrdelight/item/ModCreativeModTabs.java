@@ -19,6 +19,11 @@ public class ModCreativeModTabs {
                     .displayItems((pParameters, pOutput) ->{
                         pOutput.accept(Moditems.OAK_CAKE_ROLLS.get());
                         pOutput.accept(Moditems.MUNG_BEAN_SODA.get());
+                        pOutput.accept(Moditems.ABUNDANCE_OF_LUCK.get());
+                        pOutput.accept(Moditems.BERRYPHEASANT_SKEWERS.get());
+                        pOutput.accept(Moditems.IMMORTALS_DELIGHT.get());
+                        pOutput.accept(Moditems.TRICK_SNACK.get());
+
                     } )
                     .build());
 

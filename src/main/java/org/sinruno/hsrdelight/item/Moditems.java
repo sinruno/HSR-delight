@@ -25,6 +25,21 @@ public class Moditems {
             () -> new Item(new Item.Properties().food(ModFoods.IMMORTALS_DELIGHT)));
     public static final RegistryObject<Item> TRICK_SNACK=ITEMS.register("trick_snack",
             () -> new Item(new Item.Properties().food(ModFoods.TRICK_SNACK)));
+    public static final RegistryObject<Item> CREAM=ITEMS.register("cream",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> HISSA_PEPPER=ITEMS.register("hissa_pepper",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> PEAPOD=ITEMS.register("peapod",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> POP_FRUIT=ITEMS.register("pop_fruit",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> SOUR_FRUIT=ITEMS.register("sour_fruit",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> TEARMAKER_ONION=ITEMS.register("tearmaker_onion",
+            () -> new Item(new Item.Properties()));
+
+
+
 
 
 

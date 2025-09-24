@@ -23,6 +23,12 @@ public class ModCreativeModTabs {
                         pOutput.accept(Moditems.BERRYPHEASANT_SKEWERS.get());
                         pOutput.accept(Moditems.IMMORTALS_DELIGHT.get());
                         pOutput.accept(Moditems.TRICK_SNACK.get());
+                        pOutput.accept(Moditems.CREAM.get());
+                        pOutput.accept(Moditems.HISSA_PEPPER.get());
+                        pOutput.accept(Moditems.PEAPOD.get());
+                        pOutput.accept(Moditems.POP_FRUIT.get());
+                        pOutput.accept(Moditems.SOUR_FRUIT.get());
+                        pOutput.accept(Moditems.TEARMAKER_ONION.get());
 
                     } )
                     .build());

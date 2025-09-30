@@ -6,6 +6,7 @@ import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import org.sinruno.hsrdelight.block.ModBlocks;
 import org.sinruno.hsrdelight.item.ModCreativeModTabs;
 import org.sinruno.hsrdelight.item.Moditems;
 
@@ -22,6 +23,7 @@ public class HSRdelight {
         ModCreativeModTabs.register(modEventBus);
 
         Moditems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         MinecraftForge.EVENT_BUS.register(this);
 

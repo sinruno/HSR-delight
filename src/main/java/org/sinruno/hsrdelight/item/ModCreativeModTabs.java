@@ -8,6 +8,7 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
 import org.sinruno.hsrdelight.HSRdelight;
+import vectorwing.farmersdelight.common.registry.ModBlocks;
 
 public class ModCreativeModTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
@@ -29,6 +30,8 @@ public class ModCreativeModTabs {
                         pOutput.accept(Moditems.POP_FRUIT.get());
                         pOutput.accept(Moditems.SOUR_FRUIT.get());
                         pOutput.accept(Moditems.TEARMAKER_ONION.get());
+
+                        pOutput.accept(ModBlocks.HISSA_PEPPER_CRATE.get());
 
                     } )
                     .build());

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "hsrdelight:pop_fruit_crate"
+    }
+  ],
+  "result": {
+    "item": "hsrdelight:pop_fruit",
+    "count": 9
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "hsrdelight:peapod_crate"
+    }
+  ],
+  "result": {
+    "item": "hsrdelight:peapod",
+    "count": 9
+  }
+}

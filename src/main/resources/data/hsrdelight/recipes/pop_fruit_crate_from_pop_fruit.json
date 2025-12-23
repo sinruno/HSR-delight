@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "hsrdelight:pop_fruit"
+    }
+  },
+  "result": {
+    "item": "hsrdelight:pop_fruit_crate"
+  }
+}

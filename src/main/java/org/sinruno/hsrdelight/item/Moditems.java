@@ -8,9 +8,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import org.sinruno.hsrdelight.HSRdelight;
 
-import java.util.zip.Deflater;
-
-public class Moditems {
+public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, HSRdelight.MODID);
 

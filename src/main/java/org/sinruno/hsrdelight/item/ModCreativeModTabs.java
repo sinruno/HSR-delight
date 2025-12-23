@@ -8,31 +8,34 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
 import org.sinruno.hsrdelight.HSRdelight;
-import vectorwing.farmersdelight.common.registry.ModBlocks;
+import org.sinruno.hsrdelight.block.ModBlocks;
 
 public class ModCreativeModTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, HSRdelight.MODID);
 
     public static final RegistryObject<CreativeModeTab> HSRDELIGHT_TAB =CREATIVE_MODE_TABS.register("hsrdelight_tab",
-            ()-> CreativeModeTab.builder().icon(() -> new ItemStack(Moditems.OAK_CAKE_ROLLS.get()))
+            ()-> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.OAK_CAKE_ROLLS.get()))
                     .title(Component.translatable("creativetab.hsrdelight_tab"))
                     .displayItems((pParameters, pOutput) ->{
-                        pOutput.accept(Moditems.OAK_CAKE_ROLLS.get());
-                        pOutput.accept(Moditems.MUNG_BEAN_SODA.get());
-                        pOutput.accept(Moditems.ABUNDANCE_OF_LUCK.get());
-                        pOutput.accept(Moditems.BERRYPHEASANT_SKEWERS.get());
-                        pOutput.accept(Moditems.IMMORTALS_DELIGHT.get());
-                        pOutput.accept(Moditems.TRICK_SNACK.get());
-                        pOutput.accept(Moditems.CREAM.get());
-                        pOutput.accept(Moditems.HISSA_PEPPER.get());
-                        pOutput.accept(Moditems.PEAPOD.get());
-                        pOutput.accept(Moditems.POP_FRUIT.get());
-                        pOutput.accept(Moditems.SOUR_FRUIT.get());
-                        pOutput.accept(Moditems.TEARMAKER_ONION.get());
+                        pOutput.accept(ModItems.OAK_CAKE_ROLLS.get());
+                        pOutput.accept(ModItems.MUNG_BEAN_SODA.get());
+                        pOutput.accept(ModItems.ABUNDANCE_OF_LUCK.get());
+                        pOutput.accept(ModItems.BERRYPHEASANT_SKEWERS.get());
+                        pOutput.accept(ModItems.IMMORTALS_DELIGHT.get());
+                        pOutput.accept(ModItems.TRICK_SNACK.get());
+                        pOutput.accept(ModItems.CREAM.get());
+                        pOutput.accept(ModItems.HISSA_PEPPER.get());
+                        pOutput.accept(ModItems.PEAPOD.get());
+                        pOutput.accept(ModItems.POP_FRUIT.get());
+                        pOutput.accept(ModItems.SOUR_FRUIT.get());
+                        pOutput.accept(ModItems.TEARMAKER_ONION.get());
 
                         pOutput.accept(ModBlocks.HISSA_PEPPER_CRATE.get());
-
+                        pOutput.accept(ModBlocks.PEAPOD_CRATE.get());
+                        pOutput.accept(ModBlocks.POP_FRUIT_CRATE.get());
+                        pOutput.accept(ModBlocks.SOUR_FRUIT_CRATE.get());
+                        pOutput.accept(ModBlocks.TEARMAKER_ONION_CRATE.get());
                     } )
                     .build());
 

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "hsrdelight:hissa_pepper"
+    }
+  },
+  "result": {
+    "item": "hsrdelight:hissa_pepper_crate"
+  }
+}

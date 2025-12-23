@@ -8,7 +8,7 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.sinruno.hsrdelight.block.ModBlocks;
 import org.sinruno.hsrdelight.item.ModCreativeModTabs;
-import org.sinruno.hsrdelight.item.Moditems;
+import org.sinruno.hsrdelight.item.ModItems;
 
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod(HSRdelight.MODID)
@@ -22,7 +22,7 @@ public class HSRdelight {
 
         ModCreativeModTabs.register(modEventBus);
 
-        Moditems.register(modEventBus);
+        ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
 
         MinecraftForge.EVENT_BUS.register(this);
@@ -31,10 +31,7 @@ public class HSRdelight {
 
     }
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
-        if (event.getTabKey() == CreativeModeTabs.INGREDIENTS){
-            event.accept(Moditems.OAK_CAKE_ROLLS);
-            event.accept(Moditems.MUNG_BEAN_SODA);
-        }
+
     }
 
 

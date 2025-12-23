@@ -12,5 +12,11 @@
   "item.hsrdelight.sour_fruit": "尖酸果",
   "item.hsrdelight.tearmaker_onion": "泪眼葱",
 
+  "block.hsrdelight.hissa_pepper_crate": "箱装嘶哈椒",
+  "block.hsrdelight.peapod_crate": "箱装噼啪果",
+  "block.hsrdelight.pop_fruit_crate": "箱装荚荚豆",
+  "block.hsrdelight.sour_fruit_crate": "箱装尖酸果",
+  "block.hsrdelight.tearmaker_onion_crate": "箱装泪眼葱",
+
   "creativetab.hsrdelight_tab": "崩铁乐事"
 }

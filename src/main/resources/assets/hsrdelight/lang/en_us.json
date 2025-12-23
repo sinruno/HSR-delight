@@ -12,5 +12,12 @@
   "item.hsrdelight.sour_fruit": "Sour Fruit",
   "item.hsrdelight.tearmaker_onion": "Tearmaker Onion",
 
+
+  "block.hsrdelight.hissa_pepper_crate": "Hissa Pepper Crate",
+  "block.hsrdelight.peapod_crate": "Peapod Crate",
+  "block.hsrdelight.pop_fruit_crate": "Pop Fruit Crate",
+  "block.hsrdelight.sour_fruit_crate": "Sour Fruit Crate",
+  "block.hsrdelight.tearmaker_onion_crate": "Tearmaker Onion Crate",
+
   "creativetab.hsrdelight_tab": "HSR delight"
 }

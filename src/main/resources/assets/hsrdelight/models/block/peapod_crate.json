@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "hsrdelight:block/crate_bottom",
+    "side": "hsrdelight:block/peapod_crate_side",
+    "top": "hsrdelight:block/peapod_crate_top"
+  }
+}

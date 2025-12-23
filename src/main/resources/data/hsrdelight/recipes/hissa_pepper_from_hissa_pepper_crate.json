@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "hsrdelight:hissa_pepper_crate"
+    }
+  ],
+  "result": {
+    "item": "hsrdelight:hissa_pepper",
+    "count": 9
+  }
+}

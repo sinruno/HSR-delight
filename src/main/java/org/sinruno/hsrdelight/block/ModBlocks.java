@@ -10,8 +10,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import org.sinruno.hsrdelight.HSRdelight;
-import org.sinruno.hsrdelight.item.Moditems;
-import vectorwing.farmersdelight.common.registry.ModItems;
+import org.sinruno.hsrdelight.item.ModItems;
 
 import java.util.function.Supplier;
 
@@ -22,13 +21,25 @@ public class ModBlocks {
     public static final RegistryObject<Block> HISSA_PEPPER_CRATE = registerBlock("hissa_pepper_crate",
             ()->new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
 
+    public static final RegistryObject<Block> PEAPOD_CRATE = registerBlock("peapod_crate",
+            ()->new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
+
+    public static final RegistryObject<Block> POP_FRUIT_CRATE = registerBlock("pop_fruit_crate",
+            ()->new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
+
+    public static final RegistryObject<Block> SOUR_FRUIT_CRATE = registerBlock("sour_fruit_crate",
+            ()->new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
+
+    public static final RegistryObject<Block> TEARMAKER_ONION_CRATE = registerBlock("tearmaker_onion_crate",
+            ()->new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
+
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
         registerBlockItem(name, toReturn);
         return toReturn;
     }
     private static <T extends Block> RegistryObject<Item> registerBlockItem(String name,RegistryObject<T> block) {
-        return ModItems.ITEMS.register(name, ()-> new BlockItem(block.get(),new Item.Properties()));
+        return ModItems.ITEMS.register(name, ()-> new BlockItem(block.get()  ,new Item.Properties()));
     }
 
 
